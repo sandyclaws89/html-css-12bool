@@ -14,6 +14,7 @@ body{
     background-color: burlywood;
 }
 
+
 [class*="col-"] {
     height: 100%;
     background-color: blue;
@@ -27,18 +28,25 @@ body{
     height: 50px;
 }
 
-.container > :nth-child(6) ~ * {
+.container > :nth-child(5) ~ .row{
    
-    TODO:
     background-color: brown;
-    text-align: center;
-    margin: auto;
+    padding-top: 0rem;      TODO:
 }
-
 
 .container > :nth-child(6){
     margin-bottom: 2rem;
+    background-color: aqua;
 }
+
+.row *{
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.
+
+
 
 
 /* COL  */
