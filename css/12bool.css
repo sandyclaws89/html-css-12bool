@@ -28,23 +28,148 @@ body{
     height: 50px;
 }
 
-.container > :nth-child(5) ~ .row{
-   
+/* .container :nth-child(n+6) .row *{
+    padding-top: 0rem;
     background-color: brown;
-    padding-top: 0rem;      TODO:
+
+} */
+
+.container :nth-child(n+6) .row .col-7{
+    padding-top: 2px;
+
+
 }
+/* .container > :nth-child(6) ~ .row{
+   
+    padding-top: 0rem;      TODO: */
+/* } */
 
 .container > :nth-child(6){
     margin-bottom: 2rem;
-    background-color: aqua;
+    height: 70px;
 }
 
-.row *{
+/* .row *{
     text-align: center;
     padding-top: 1rem;
+} */
+
+.col-6 .row {
+    
+    margin-top: 17.5px;
 }
 
-.
+.col-6 .row .col-3{
+   
+    height:60%;
+    background-color: greenyellow;
+   
+
+}
+.col-6 .row .col-6{
+   
+    height:60%;
+    background-color: greenyellow;
+}
+
+
+.test{
+    display: flex;
+    width: 500px;
+    height: 135px;
+    background-color: yellow;
+    align-items: center;
+}
+
+.testi{
+    height: 50px;
+    background-color: darkgreen;
+    width: calc(100% /4);
+    align-items: center;
+}
+
+.testone{
+    height: 50px;
+    width: calc(100% / 2);
+    background-color: crimson;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
