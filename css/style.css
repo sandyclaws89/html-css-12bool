@@ -1,0 +1,55 @@
+.container > :nth-child(6){
+    margin-bottom: 2rem;
+    height: 70px;
+}
+
+.row *{
+    text-align: center;
+    /* TODO: METTERE SELETTORE MENO FORTE  */  
+}
+
+.col-6 .row {
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.col-6 .row :last-child{
+    margin-right: 10px;
+    flex-basis:calc((100% / 2 ) - 20px);
+}
+
+[class*="row"] {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 50px;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container :nth-child(6) .col-3{
+    height:60%;
+    background-color: greenyellow;
+}
+
+.container :nth-child(6) :first-child .row :first-child{
+    margin-left: 10px;
+    flex-basis:calc((100% / 4 ) - 20px);
+    /* IL RISULTATO L'HO OTTENUTO MA NON HO BEN CAPITO COME RIGUARDO L'OPERAZIONE*/
+}
+
+.container :nth-child(6) :last-child .row :first-child{
+    margin-left: 10px;
+    flex-basis:calc((100% / 2 ) - 20px);
+    /* IL RISULTATO L'HO OTTENUTO MA NON HO BEN CAPITO COME RIGUARDO L'OPERAZIONE*/
+}
+
+.col-6 .row .col-6{   
+    height:60%;
+    background-color: greenyellow;
+}
+
